@@ -1,0 +1,30 @@
+@model ProductListViewModel
+@*razor*@
+
+
+
+    @* ürünler *@
+       <div class="row">
+           <div class="col-md-3">
+             @await Component.InvokeAsync("Categories")
+           </div>
+            <div class="col-md-9">
+                <div class="row">
+                   @foreach (var item in Model.Products)
+                   { 
+                      <div class="col-md-4">
+                         @await Html.PartialAsync("_product",item)
+                      </div>
+                    }
+
+              </div>
+             
+           </div>
+       </div>
+    
+       
+    
+  @section Scripts
+{
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+}

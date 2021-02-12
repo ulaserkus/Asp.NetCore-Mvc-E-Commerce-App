@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <style>
+        .popular {
+            color: green;
+            font-weight: 600;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+    @await Html.PartialAsync("_navbar")
+
+
+    <main class="my-3">
+        <div class="container">
+            @if (TempData["message"] != null)
+            {  
+              <partial name="_ResultMessage" model="@(TempData.Get<AlertMessage>("message"))"/>
+            }
+
+            @RenderBody()
+
+
+        </div>
+    </main>
+
+
+    <footer class="py-5 bg-dark text-white text-center">
+        App | 2021
+    </footer>
+    <script src="https://kit.fontawesome.com/e155a0a56c.js" crossorigin="anonymous"></script>
+    @RenderSection("Scripts",false)
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+@model OrderModel
+<h1>Checkout</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <h4 class="mb-3">Sipariş Detayı</h4>
+        <form asp-controller="Cart" asp-action="Checkout" method="POST">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="@Model.FirstName">Adı</label>
+                    <input asp-for="@Model.FirstName" id="" class="form-control">
+                </div>
+
+                <div class="col-md-6">
+
+                    <label asp-for="@Model.LastName" for="">Soy Adı</label>
+                    <input asp-for="@Model.LastName" type="text" name="" id="" class="form-control">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label asp-for="@Model.Address">Address</label>
+                <textarea asp-for="@Model.Address" name="address" id="" cols="30" rows="10"
+                    class="form-control"></textarea>
+
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label asp-for="@Model.City">Şehir</label>
+                    <input type="text" asp-for="@Model.City" id="" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="@Model.Phone">Telefon</label>
+                    <input type="text" asp-for="@Model.Phone" id="" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="@Model.Email">Email</label>
+                    <input type="text" asp-for="@Model.Email" id="" class="form-control">
+                </div>
+            </div>
+
+            <h4 class="mb-3">Ödeme Bilgileri</h4>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="@Model.CardName">CardName</label>
+                    <input type="text" asp-for="@Model.CardName" id="" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="@Model.CardNumber">CardNumber</label>
+                    <input type="text" asp-for="@Model.CardNumber" id="" class="form-control">
+                </div>
+
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label asp-for="@Model.ExpirationMonth">ExpirationMonth</label>
+                    <input type="text" asp-for="@Model.ExpirationMonth" id="" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="@Model.ExpirationYear">ExpirationYear</label>
+                    <input type="text" asp-for="@Model.ExpirationYear" id="" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="@Model.Cvc">Cvc</label>
+                    <input type="text" asp-for="@Model.Cvc" id="" class="form-control">
+                </div>
+
+            </div>
+            <hr class="mb-3">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+        </form>
+    </div>
+
+    <div class="col-md-4">
+        <h4 class="mb-3">
+            <span>Özet Bilgiler</span>
+            <ul class="list-group mb-3">
+                @foreach (var item in Model.CartModel.CartItems)
+                {
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <h6>@item.Name</h6>
+
+                        </div>
+                        <span class="text-muted">@item.Price.ToString("c")</span>
+
+                    </li>
+                }
+
+                <li class="list-group-item d-flex justify-content-between">
+                    <span>Toplam (TL)</span>
+                    <strong>@Model.CartModel.TotalPrice().ToString("c") TL</strong>
+                </li>
+            </ul>
+        </h4>
+    </div>
+</div>
