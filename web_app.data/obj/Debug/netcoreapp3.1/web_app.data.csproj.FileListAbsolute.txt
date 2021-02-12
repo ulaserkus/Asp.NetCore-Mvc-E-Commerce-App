@@ -1,0 +1,15 @@
+/Users/mac/web_app/web_app.data/obj/Debug/netcoreapp3.1/web_app.data.csprojAssemblyReference.cache
+/Users/mac/web_app/web_app.data/obj/Debug/netcoreapp3.1/web_app.data.AssemblyInfoInputs.cache
+/Users/mac/web_app/web_app.data/obj/Debug/netcoreapp3.1/web_app.data.AssemblyInfo.cs
+/Users/mac/web_app/web_app.data/obj/Debug/netcoreapp3.1/web_app.data.csproj.CoreCompileInputs.cache
+/Users/mac/web_app/web_app.data/bin/Debug/netcoreapp3.1/web_app.data.deps.json
+/Users/mac/web_app/web_app.data/bin/Debug/netcoreapp3.1/web_app.data.runtimeconfig.json
+/Users/mac/web_app/web_app.data/bin/Debug/netcoreapp3.1/web_app.data.runtimeconfig.dev.json
+/Users/mac/web_app/web_app.data/bin/Debug/netcoreapp3.1/web_app.data.dll
+/Users/mac/web_app/web_app.data/bin/Debug/netcoreapp3.1/web_app.data.pdb
+/Users/mac/web_app/web_app.data/bin/Debug/netcoreapp3.1/web_app.entity.dll
+/Users/mac/web_app/web_app.data/bin/Debug/netcoreapp3.1/web_app.entity.pdb
+/Users/mac/web_app/web_app.data/obj/Debug/netcoreapp3.1/web_app.data.csproj.CopyComplete
+/Users/mac/web_app/web_app.data/obj/Debug/netcoreapp3.1/web_app.data.dll
+/Users/mac/web_app/web_app.data/obj/Debug/netcoreapp3.1/web_app.data.pdb
+/Users/mac/web_app/web_app.data/obj/Debug/netcoreapp3.1/web_app.data.genruntimeconfig.cache

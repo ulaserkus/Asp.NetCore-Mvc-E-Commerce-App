@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{89517911-0EAD-4507-8795-2BA8F082E2AC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="web_app.entity/Category.cs">
+    <Files>
+      <File FileName="web_app.data/Concrete/EfCore/ShopContext.cs" Line="1" Column="1" />
+      <File FileName="web_app.entity/Category.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="web_app" expanded="True">
+            <Node name="App.webui" expanded="True" />
+            <Node name="web_app.data" expanded="True">
+              <Node name="Concrete" expanded="True">
+                <Node name="EfCore" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="web_app.entity" expanded="True">
+              <Node name="Category.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.App.webui PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

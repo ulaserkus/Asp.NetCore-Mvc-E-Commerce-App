@@ -1,0 +1,12 @@
+/Users/mac/web_app/web_app.entity/bin/Debug/net5.0/web_app.entity.deps.json
+/Users/mac/web_app/web_app.entity/bin/Debug/net5.0/web_app.entity.dll
+/Users/mac/web_app/web_app.entity/bin/Debug/net5.0/ref/web_app.entity.dll
+/Users/mac/web_app/web_app.entity/bin/Debug/net5.0/web_app.entity.pdb
+/Users/mac/web_app/web_app.entity/obj/Debug/net5.0/web_app.entity.csprojAssemblyReference.cache
+/Users/mac/web_app/web_app.entity/obj/Debug/net5.0/web_app.entity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/web_app/web_app.entity/obj/Debug/net5.0/web_app.entity.AssemblyInfoInputs.cache
+/Users/mac/web_app/web_app.entity/obj/Debug/net5.0/web_app.entity.AssemblyInfo.cs
+/Users/mac/web_app/web_app.entity/obj/Debug/net5.0/web_app.entity.csproj.CoreCompileInputs.cache
+/Users/mac/web_app/web_app.entity/obj/Debug/net5.0/web_app.entity.dll
+/Users/mac/web_app/web_app.entity/obj/Debug/net5.0/ref/web_app.entity.dll
+/Users/mac/web_app/web_app.entity/obj/Debug/net5.0/web_app.entity.pdb

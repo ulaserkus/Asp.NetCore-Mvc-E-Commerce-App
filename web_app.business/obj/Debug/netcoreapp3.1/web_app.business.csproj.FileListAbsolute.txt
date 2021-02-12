@@ -1,0 +1,14 @@
+/Users/mac/web_app/web_app.business/bin/Debug/netcoreapp3.1/web_app.business.deps.json
+/Users/mac/web_app/web_app.business/bin/Debug/netcoreapp3.1/web_app.business.dll
+/Users/mac/web_app/web_app.business/bin/Debug/netcoreapp3.1/web_app.business.pdb
+/Users/mac/web_app/web_app.business/bin/Debug/netcoreapp3.1/web_app.data.dll
+/Users/mac/web_app/web_app.business/bin/Debug/netcoreapp3.1/web_app.entity.dll
+/Users/mac/web_app/web_app.business/bin/Debug/netcoreapp3.1/web_app.entity.pdb
+/Users/mac/web_app/web_app.business/bin/Debug/netcoreapp3.1/web_app.data.pdb
+/Users/mac/web_app/web_app.business/obj/Debug/netcoreapp3.1/web_app.business.csprojAssemblyReference.cache
+/Users/mac/web_app/web_app.business/obj/Debug/netcoreapp3.1/web_app.business.AssemblyInfoInputs.cache
+/Users/mac/web_app/web_app.business/obj/Debug/netcoreapp3.1/web_app.business.AssemblyInfo.cs
+/Users/mac/web_app/web_app.business/obj/Debug/netcoreapp3.1/web_app.business.csproj.CoreCompileInputs.cache
+/Users/mac/web_app/web_app.business/obj/Debug/netcoreapp3.1/web_app.business.csproj.CopyComplete
+/Users/mac/web_app/web_app.business/obj/Debug/netcoreapp3.1/web_app.business.dll
+/Users/mac/web_app/web_app.business/obj/Debug/netcoreapp3.1/web_app.business.pdb
